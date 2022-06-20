@@ -1,0 +1,38 @@
+# Object files
+*.o
+*.so
+*build*
+
+# Visual Studio Code project settings
+.vscode
+
+# Cached files
+.rendered.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+*test*
+
+
+# Cached files
+.*cppimporthash
+.rendered.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Compiled files
+support/*/deps/
+support/*/obj/
+# closedloop/rtk/*.mem
+support/rtk/*.mem.elf
+support/rtk/*.mem.elf.map
+
+*test*
